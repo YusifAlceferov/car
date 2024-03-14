@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://preview.colorlib.com/theme/tralive/assets/img/hero/h1_hero1.png.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: right;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vh;
+
+  position: sticky;
+  top: 0;
+}
+.icon img {
+  width: 80px;
+  height: 40px;
+  padding: 10px;
+}
+.lenttab {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.lenttab a {
+  color: black;
+  padding: 10px;
+  font-size: 10px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  background-color: orange;
+}
+.contact a {
+  color: white;
+  margin-right: 30px;
+}
+.contact i {
+  color: white;
+  margin-left: 30px;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  margin: 0px, 0px, 200px;
+  text-align: center;
+}
+.yazi {
+  text-align: center;
+  padding-left: 40px;
+}
+.yazi h1 {
+  font-family: "Oleo Script", system-ui;
+  font-family: "Dancing Script", cursive;
+  font-family: "Poppins",  sans-serif;
+}
+.yazi h6 {
+  font-family: "Oleo Script", system-ui;
+  font-family: "Dancing Script", cursive;
+  font-family: "Poppins",  sans-serif;
+}
+#btnexp {
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(52, 52, 151);
+  border-radius: 15px;
+}
+.car1 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 120px;
+  padding: 200px;
+  animation-name: example;
+  animation-duration: 9s;
+  animation-delay: none;
+  animation-iteration-count: infinite
+}
+.car1 img {
+    position: absolute;
+  width: 300px;
+  height: 200px;
+
+}
+@keyframes example {
+    0% {
+        left: 15%;
+    }
+
+    50% {
+        left: 30%;
+    }
+
+    100% {
+        left:-15% }
+}
